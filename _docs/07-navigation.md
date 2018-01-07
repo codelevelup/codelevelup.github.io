@@ -12,24 +12,6 @@ The masthead links use a "priority plus" design pattern. Meaning, show as many n
 
 To define these links add titles and URLs under the `main` key in `_data/navigation.yml`:
 
-```yaml
-main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "Pages"
-    url: /page-archive/
-  - title: "Collections"
-    url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
-```
-
 Which will give you a responsive masthead similar to this:
 
 ![priority plus masthead animation]({{ "/assets/images/mm-priority-plus-masthead.gif" | absolute_url }})

@@ -1,18 +1,31 @@
 # Authors
 
-Billy Rick:
-  name        : "Billy Rick"
-  uri         : "http://thewhip.com"
-  email       : "billy@rick.com"
-  bio         : "What do you want, jewels? I am a very extravagant man."
+michisarm:
+  name        : "michisarm"
+  uri         : "http://michisarm.github.io"
+  email       : "michisarm@google.com"
+  bio         : "I am michisarm"
   avatar      : "/assets/images/bio-photo-2.jpg"
-  twitter     : "extravagantman"
-  google_plus : "BillyRick"
+  teaser      : assets/images/unsplash-gallery-image-1-th.jpg
+  twitter     :
+  google_plus : "michisarm"
 
-Cornelius Fiddlebone:
-  name        : "Cornelius Fiddlebone"
-  email       : "cornelius@thewhip.com"
-  bio         : "I ordered what?"
+marche798:
+  name        : "marche798"
+  uri         : "http://marche798.github.io"
+  email       : "marche798@google.com"
+  bio         : "I am marche798"
   avatar      : "/assets/images/bio-photo.jpg"
-  twitter     : "rhymeswithsackit"
-  google_plus : "CorneliusFiddlebone"
+  teaser      : assets/images/unsplash-gallery-image-1-th.jpg
+  twitter     :
+  google_plus : "marche798"
+
+chiang:
+  name        : "chiang"
+  uri         : "http://chiang.github.io"
+  email       : "chiang@rightstack.net"
+  bio         : "I am chiang"
+  avatar      : "/assets/images/bio-photo.jpg"
+  teaser      : assets/images/unsplash-gallery-image-1-th.jpg
+  twitter     :
+  google_plus : "chiang"

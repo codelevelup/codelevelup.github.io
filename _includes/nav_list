@@ -41,6 +41,16 @@
           {% endfor %}
         </ul>
         {% endif %}
+
+        {% if nav.field != null %}
+        <ul>
+          {% include group-by-array collection=site.posts field= nav.field %}
+          {% for name in group_names %}
+            <li><a href="{{ nav.url }}#{{ name | slugify }}">{{ name }}</a></li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+
       </li>
     {% endfor %}
   </ul>

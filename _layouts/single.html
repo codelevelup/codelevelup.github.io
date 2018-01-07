@@ -42,6 +42,20 @@ layout: default
             </nav>
           </aside>
         {% endif %}
+        {% if page.author_layout %}
+          <div class="archive__a">
+          {% include group-by-array collection=site.posts field="author" %}
+          {% for author in group_names %}
+            {% if page.author == author %}
+            {% assign posts = group_items[forloop.index0] %}
+            <h2 id="{{ author | slugify }}" class="archive__subtitle">{{ author }}</h2>
+            {% for post in posts %}
+              {% include archive-single.html %}
+            {% endfor %}
+            {% endif %}
+          {% endfor %}
+          </div>
+        {% endif %}
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
